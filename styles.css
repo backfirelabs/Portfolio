@@ -42,3 +42,10 @@ footer {
     background: #333;
     color: white;
 }
+
+#container {
+    border: 2px solid black;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
