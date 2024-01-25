@@ -12,5 +12,3 @@ function changeColors() {
     container.style.backgroundColor = 'navy'; // Choose any color
     container.style.color = 'white'; // Text color
 }
-
-<button onclick="changeColors()">Change Colors</button>
