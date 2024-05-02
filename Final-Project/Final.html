@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <script src="Final.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Final Project</h1>
+    </header>
+    <!-- <nav>
+        <ul>
+            <li><a href="../#about-me">About Me</a></li>
+            <li><a href="../#projects">Projects</a></li>
+            <li><a href="../#contact">Contact</a></li>
+            <li><a href="../array.html">Array</a></li>
+            <li><a href="../dom.html">Dom</a></li>
+            <li><a href="../Unit-Two/objects.html">Objects</a></li>
+            <li><a href="../Unit-Two/async.html">Async Race</a></li>
+        </ul>
+    </nav> -->
+    <nav>
+        <ul>
+            <li><a href="https://backfirelabs.github.io/Portfolio/#about-me">About Me</a></li>
+            <li><a href="https://backfirelabs.github.io/Portfolio/#projects">Projects</a></li>
+            <li><a href="https://backfirelabs.github.io/Portfolio/#contact">Contact</a></li>
+            <li><a href="https://backfirelabs.github.io/Portfolio/array.html">Array</a></li>
+            <li><a href="https://backfirelabs.github.io/Portfolio/dom.html">Dom</a></li>
+            <li><a href="https://backfirelabs.github.io/Portfolio/Unit-Two/objects.html">Objects</a></li>
+            <li><a href="https://backfirelabs.github.io/Portfolio/Unit-Two/async.html">Async Race</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="centerfin">Graph Editor</h1>
+    <section class="form-container">
+    <div>
+        <input type="text" id="vertexName" placeholder="Enter vertex name" />
+        <button onclick="addVertex()">Add Vertex</button>
+    </div>
+    <div>
+        <input type="text" id="fromVertex" placeholder="From vertex" />
+        <input type="text" id="toVertex" placeholder="To vertex" />
+        <input type="number" id="edgeWeight" placeholder="Edge weight" />
+        <button onclick="addEdge()">Add Edge</button>
+    </div>
+    <div>
+        <button onclick="showGraph()">Show Graph</button>
+        <p>Graph Visualization: <span id="graphVisual">None</span></p>
+    </div>
+    <div>
+        <input type="text" id="startVertex" placeholder="Start vertex for path" />
+        <input type="text" id="endVertex" placeholder="End vertex for path" />
+        <button onclick="findPath()">Find Shortest Path</button>
+        <p>Shortest Path: <span id="pathResult">None</span></p>
+    </div>
+</section>
+</body>
+</html>

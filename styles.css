@@ -1,96 +1,113 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 nav ul {
-    padding: 0;
-    list-style: none;
-    background: #555;
-    text-align: center;
-    margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #555;
+  text-align: center;
+  margin: 0;
 }
 
 nav ul li {
-    display: inline;
+  display: inline;
 }
 
 nav ul li a {
-    color: white;
-    padding: .5rem 1rem;
-    text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
 }
 
 section {
-    padding: 20px;
-    margin: 20px 0;
+  padding: 20px;
+  margin: 20px 0;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    overflow: hidden;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
 }
 
 #container {
-    border: 2px solid black;
-    width: 80%;
-    margin: 0 auto;
-    padding: 10px;
+  border: 2px solid black;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 #objects {
-    border: 2px solid black;
-    padding: 10px;
-    text-align: center;
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
 }
 
-#output{
-    border: 2px solid black;
-    padding: 10px;
-    text-align: center;
+#output {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
 }
 
 /* Algorithms */
 #algorithms-container {
-    border: 2px solid black;
-    padding: 10px;
-    text-align: center;
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
 }
-#algorithms, #algorithms2 {
-    padding: 10px;
-    text-align: center;
+#algorithms,
+#algorithms2 {
+  padding: 10px;
+  text-align: center;
 }
 #algorithms-h1 {
-    text-align: center;
+  text-align: center;
 }
 #depth-button {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 #breadth-button {
-    display: flex;
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
 }
 .button-container {
-    text-align: center;
+  text-align: center;
 }
 .button-container button {
-    margin: 0 5px; /* Add some space between buttons */
+  margin: 0 5px; /* Add some space between buttons */
+}
+
+/* Finals */
+#centerfin {
+  text-align: center;
+}
+.form-container {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+input[type="text"],
+button {
+  width: 100%;
 }
